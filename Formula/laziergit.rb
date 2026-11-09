@@ -1,16 +1,16 @@
 class Laziergit < Formula
   desc "Native macOS app with lazygit's functionality"
   homepage "https://github.com/Siemko/laziergit"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_arm do
-    url "https://github.com/Siemko/laziergit/releases/download/v0.2.0/laziergit-0.2.0-darwin-arm64.tar.gz"
-    sha256 "858833e36d1c81611b5418cbfb1d58437971c70272e17a8706a28b649c923fa2"
+    url "https://github.com/Siemko/laziergit/releases/download/v0.3.0/laziergit-0.3.0-darwin-arm64.tar.gz"
+    sha256 "bb642113af543d50954c4d0973271205999b76009d94bf12ad1d0d3211b0106f"
   end
   on_intel do
-    url "https://github.com/Siemko/laziergit/releases/download/v0.2.0/laziergit-0.2.0-darwin-amd64.tar.gz"
-    sha256 "34bd5aa314015467444ad1e45215ada1c58806e1580adc833069e5638d18f553"
+    url "https://github.com/Siemko/laziergit/releases/download/v0.3.0/laziergit-0.3.0-darwin-amd64.tar.gz"
+    sha256 "a5d5dc25917f35be107ec92cdc57daa029f5c0d8e3b0e7b59498b132270cceb3"
   end
 
   depends_on macos: :monterey
